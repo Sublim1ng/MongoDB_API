@@ -12,3 +12,8 @@ We have an existing "app" folder and a "run-app.py" file. We just need to run: <
 ```bash
 python run-app.py
 ```
+## 3. Flask APP (In Postman)
+**Homepage:(Method: "GET")**
+```bash
+http://127.0.0.1:5000/
+```
