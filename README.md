@@ -1,3 +1,5 @@
 # MongoDB_API
-### Schema Design <br>
+## 1. Schema Design <br>
+After scanning the five .csv files, I found that they are related by the column "id" or "job_id". I joined them together but found the merged data frame is really messy. In addition, Mongo shell only accepts JSON files. I need to reorganize the data frame. "job_id", "company", "job", and "industry" in the final schema are the four keys I selected. "job_id" directly maps to the column in the data frame, while the other three keys map to nested JSON objects containing more key-value pairs. <br>
+
 
