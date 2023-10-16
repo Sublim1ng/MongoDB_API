@@ -19,7 +19,7 @@ http://127.0.0.1:5000/
 **Create a Job Post(Method: "POST"):**
 ```bash
 http://127.0.0.1:5000/create/jobPost
-**Body >> Raw >> JSON**
+# Body >> Raw >> JSON
 {
   "title": "Software Engineer",
   "description": "Responsible for developing and maintaining software applications.",
