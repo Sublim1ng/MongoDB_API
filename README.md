@@ -4,8 +4,8 @@ After scanning the five .csv files, I found that they are related by the column 
 ## 2. Import Data and Connect API <br>
 This step is simple: <br>
 **Data Import:** <br>
-mongoimport --db mydb --collection data --file /ds5760/mongo/nested_data.json --jsonArray <br>
+*mongoimport --db mydb --collection data --file /ds5760/mongo/nested_data.json --jsonArray <br>*
 **Connect API** <br>
 We have an existing "app" folder and a "run-app.py" file. We just need to run: <br>
-python run-app.py <br>
+*python run-app.py <br>*
 
