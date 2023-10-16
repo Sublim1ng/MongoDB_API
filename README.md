@@ -77,7 +77,7 @@ http://127.0.0.1:5000/jobs/salary_range
 Params >> Key: min_salary, Value: 60000 >> Key: max_salary, Value: 100000
 ```
 
-**Job Experience Level Query(Method: "GET"):**
+**Job Experience Level Query(Method: "GET"):** <br>
 My level definition: <br>
 [0,2] >> Entry Level <br>
 [3,5] >> Mid Level <br>
