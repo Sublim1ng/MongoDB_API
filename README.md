@@ -19,7 +19,9 @@ http://127.0.0.1:5000/
 **Create a Job Post(Method: "POST"):**
 ```bash
 http://127.0.0.1:5000/create/jobPost
-### Body >> Raw >> JSON ###
+```
+**Body >> Raw >> JSON**
+```bash
 {
   "title": "Software Engineer",
   "description": "Responsible for developing and maintaining software applications.",
@@ -37,7 +39,9 @@ It returns the details of the job that has job_id: 1. <br>
 **Update Job Details(Method: "POST":**
 ```bash
 http://127.0.0.1:5000/update_by_job_title
+```
 **Body >> Raw >> JSON**
+```bash
 {
    "title": "Risk Analyst",
    "description": "Calculate potential investment risk for clients",
@@ -49,7 +53,9 @@ http://127.0.0.1:5000/update_by_job_title
 **Remove Job Listing(Method: "DELETE"):**
 ```bash
 http://127.0.0.1:5000/delete_by_job_title
+```
 **Body >> Raw >> JSON**
+```bash
 {
    "title": "IT Consultant",
    "confirm": "yes"
@@ -60,7 +66,9 @@ If you don't enter the "confirm" part, it will return the details of that job. <
 **Salary Range Query(Method: "GET"):**
 ```bash
 http://127.0.0.1:5000/jobs/salary_range
-**Params >> Key: min_salary, Value: 60000 >> Key: max_salary, Value: 100000**
+```
+```bash
+Params >> Key: min_salary, Value: 60000 >> Key: max_salary, Value: 100000
 ```
 
 **Job Experience Level Query(Method: "GET"):**
@@ -70,12 +78,16 @@ My level definition: <br>
 [6,100] >> Senior Level <br>
 ```bash
 http://127.0.0.1:5000/jobs/experience_level
-**Params >> Key: experience_level, Value:Mid Level**
+```
+```bash
+Params >> Key: experience_level, Value:Mid Level
 ```
 
 **Top Companies in an Industry(Method: "GET"):**
 ```bash
 http://127.0.0.1:5000/companies/top_in_industry
-**Params >> Key: industry, Value: Tech**
+```
+```bash
+Params >> Key: industry, Value: Tech
 ```
 
