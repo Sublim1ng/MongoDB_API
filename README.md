@@ -6,7 +6,7 @@ After scanning the five .csv files, I found that they are related by the column 
 ```bash
 mongoimport --db mydb --collection data --file /ds5760/mongo/nested_data.json --jsonArray
 ``` 
-**Connect API** <br>
+**Connect API:** <br>
 We have an existing "app" folder and a "run-app.py" file. We just need to run: <br>
 ```bash
 python run-app.py
@@ -20,7 +20,9 @@ http://127.0.0.1:5000/
 ```bash
 http://127.0.0.1:5000/create/jobPost
 ```
-**Body >> Raw >> JSON**
+```bash
+Body >> Raw >> JSON
+```
 ```bash
 {
   "title": "Software Engineer",
@@ -40,7 +42,9 @@ It returns the details of the job that has job_id: 1. <br>
 ```bash
 http://127.0.0.1:5000/update_by_job_title
 ```
-**Body >> Raw >> JSON**
+```bash
+Body >> Raw >> JSON
+```
 ```bash
 {
    "title": "Risk Analyst",
@@ -54,7 +58,9 @@ http://127.0.0.1:5000/update_by_job_title
 ```bash
 http://127.0.0.1:5000/delete_by_job_title
 ```
-**Body >> Raw >> JSON**
+```bash
+Body >> Raw >> JSON
+```
 ```bash
 {
    "title": "IT Consultant",
